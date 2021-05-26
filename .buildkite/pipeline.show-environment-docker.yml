@@ -1,6 +1,6 @@
 steps:
   - label: ":ubuntu:"
-    command: ./src/show_environment.sh
+    command: ls -al
     plugins:
       - docker#v3.5.0:
           image: "ubuntu:latest"
